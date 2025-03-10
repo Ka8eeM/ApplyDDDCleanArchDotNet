@@ -9,8 +9,12 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddPresentation(this IServiceCollection services)
     {
-        //builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>()); // replaced with error endpoint - custom problem detais factory
         services.AddControllers();
+        services.AddEndpointsApiExplorer();
+        services.AddSwaggerGen();
+
+        //builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>()); // replaced with error endpoint - custom problem detais factory
+     
         services.AddSingleton<ProblemDetailsFactory, ApplicationProblemDetailsFactory>();
         return services;
     }
