@@ -22,6 +22,6 @@
     <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
     <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-    <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="6.29.0" />
+    <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.6.1" />
   </ItemGroup>
 </Project>

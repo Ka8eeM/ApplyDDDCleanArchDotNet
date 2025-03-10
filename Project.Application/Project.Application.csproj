@@ -14,6 +14,7 @@
 		<PackageReference Include="MediatR" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\Project.Contracts\Project.Contracts.csproj" />
